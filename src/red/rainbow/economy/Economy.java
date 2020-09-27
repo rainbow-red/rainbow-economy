@@ -40,4 +40,19 @@ public class Economy {
     public void onProxyShutdown(ProxyShutdownEvent event) {
         logger.info("§cEconomy DOWN.");
     }
+
+
+
+
+    public static ProxyServer getServer() {
+        return server;
+    }
+
+    public static Logger getLogger() {
+        return logger;
+    }
+
+    public static Path getDataDir() {
+        return dataDir;
+    }
 }
