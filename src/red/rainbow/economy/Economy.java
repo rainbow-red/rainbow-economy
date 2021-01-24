@@ -14,7 +14,7 @@ import java.nio.file.Path;
 import java.util.logging.Logger;
 
 @Plugin(id = "rainbow-economy",
-        version = "1.0",
+        version = "0.2",
         description = "Economy framework and transaction handler for RainbowRED.",
         url = "https//rainbow.red/",
         authors = {"RainbowSpeedy"},
